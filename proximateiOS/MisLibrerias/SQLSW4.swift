@@ -454,7 +454,13 @@ class DB_Manager: NSObject {
                 let aux_nombre = sqlite3_column_name(statement, q)
                 
                 //let nombre = String.fromCString(aux_nombre!)!
-                let nombre = String(cString:aux_nombre!)
+                
+                var nombre = "aux"
+                
+                if aux_nombre != nil {
+                    
+                    nombre = String(cString:aux_nombre!)
+                }
                 
                 
                 

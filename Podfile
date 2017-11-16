@@ -9,12 +9,14 @@ target 'proximateiOS' do
   # Pods for proximateiOS
 
 pod 'NVActivityIndicatorView'
+pod 'GoogleMaps'
 
   target 'proximateiOSTests' do
     inherit! :search_paths
     # Pods for testing
 
     pod 'NVActivityIndicatorView'
+    pod 'GoogleMaps'
 
   end
 
@@ -23,6 +25,7 @@ pod 'NVActivityIndicatorView'
     # Pods for testing
 
     pod 'NVActivityIndicatorView'
+    pod 'GoogleMaps'
 
   end
 

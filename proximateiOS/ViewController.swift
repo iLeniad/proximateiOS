@@ -390,6 +390,8 @@ class ViewController: UIViewController,UITextFieldDelegate,URLSessionDelegate,UR
                 
                 let resultadoLogin = self.db.select_query_columns(sql)
                 
+                
+                
                 let auxTexto = "success: \(resultadoLogin[0]["success"]!)\nerror: \(resultadoLogin[0]["error"]!)\nmessage: \(resultadoLogin[0]["message"]!) \ntoken: e\(resultadoLogin[0]["token"]!)\nid: \(resultadoLogin[0]["id"]!)"
                 
                 let textoCargador:UITextView = UITextView()
@@ -440,7 +442,10 @@ class ViewController: UIViewController,UITextFieldDelegate,URLSessionDelegate,UR
         
         for renglon in resultadoLogin {
             
-            token = renglon["token"]!
+            if let _ = renglon["token"] {
+                
+                token = renglon["token"]!
+            }
         }
         
         //print(token)

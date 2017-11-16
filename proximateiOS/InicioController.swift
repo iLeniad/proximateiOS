@@ -11,8 +11,9 @@ import UIKit
 import MapKit
 import Photos
 import CoreLocation
+import GoogleMaps
 
-class InicioController: UIViewController,UITextFieldDelegate,UINavigationControllerDelegate, UIImagePickerControllerDelegate,CLLocationManagerDelegate {
+class InicioController: UIViewController,UITextFieldDelegate,UINavigationControllerDelegate, UIImagePickerControllerDelegate,CLLocationManagerDelegate,GMSMapViewDelegate {
 
     var imagePicker: UIImagePickerController!
     
@@ -23,6 +24,8 @@ class InicioController: UIViewController,UITextFieldDelegate,UINavigationControl
     var locationManager = CLLocationManager()
     
     var defaults = UserDefaults.standard
+    
+    var el_mapa: GMSMapView = GMSMapView()
     
     override func viewDidLoad() {
         
@@ -103,12 +106,23 @@ class InicioController: UIViewController,UITextFieldDelegate,UINavigationControl
         
         textoUbicacion.frame = CGRect(x: 0, y: auxFoto.frame.origin.y + auxFoto.frame.height * 1.01, width: self.view.frame.width, height: 50)
         
+        el_mapa.frame = CGRect(x: 0, y: textoUbicacion.frame.origin.y + textoUbicacion.frame.height, width: self.view.frame.width, height: self.view.frame.height - textoUbicacion.frame.origin.y - textoUbicacion.frame.height - 50)
         
+        el_mapa.delegate=self
+        
+        el_mapa.clear()
+        
+        let ubicacion = obtener_ubicacion()
+        
+        let marker = GMSMarker(position: ubicacion.coordinate)
+        marker.title = "Usted esta aqui"
+        marker.map = el_mapa
         
         textoUbicacion.contentHorizontalAlignment = .center
         textoUbicacion.contentVerticalAlignment = .center
         
         self.view.addSubview(textoUbicacion)
+        self.view.addSubview(el_mapa)
         
         
         let botonCerrarSesion:UIButton = UIButton()
@@ -230,6 +244,15 @@ class InicioController: UIViewController,UITextFieldDelegate,UINavigationControl
         let ubicacion = obtener_ubicacion()
         
         textoUbicacion.setTitle("\(ubicacion.coordinate.latitude),\(ubicacion.coordinate.longitude)", for: .normal)
+        
+        let camera = GMSCameraPosition.camera(withLatitude: ubicacion.coordinate.latitude, longitude: ubicacion.coordinate.longitude, zoom: 16)
+        
+        el_mapa.camera = camera
+        
+        let marker = GMSMarker(position: ubicacion.coordinate)
+        marker.title = "Usted esta aqui"
+        marker.map = el_mapa
+        
     }
     
     
