@@ -24,6 +24,14 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Es necesario saber su ubicación</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Es necesario saber su ubicación</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Es necesario tener acceso a la Libreria</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Es necesario tener acceso a la camara</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

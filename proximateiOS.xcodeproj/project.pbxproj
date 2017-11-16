@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2170D4F156F4C03498A3A70F /* Pods_proximateiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB9C41A26E5E0C8975BAB1 /* Pods_proximateiOSTests.framework */; };
 		BD0392721FBD3025006A5DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0392711FBD3025006A5DA5 /* AppDelegate.swift */; };
 		BD0392741FBD3025006A5DA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0392731FBD3025006A5DA5 /* ViewController.swift */; };
 		BD0392771FBD3025006A5DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0392751FBD3025006A5DA5 /* Main.storyboard */; };
@@ -15,6 +16,22 @@
 		BD03927F1FBD3026006A5DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD03927D1FBD3026006A5DA5 /* LaunchScreen.storyboard */; };
 		BD03928A1FBD3026006A5DA5 /* proximateiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0392891FBD3026006A5DA5 /* proximateiOSTests.swift */; };
 		BD0392951FBD3027006A5DA5 /* proximateiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0392941FBD3027006A5DA5 /* proximateiOSUITests.swift */; };
+		BD0392A31FBD34D2006A5DA5 /* Extensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0392A21FBD34D2006A5DA5 /* Extensiones.swift */; };
+		BD0392A41FBD34D2006A5DA5 /* Extensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0392A21FBD34D2006A5DA5 /* Extensiones.swift */; };
+		BD0392A51FBD34D2006A5DA5 /* Extensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0392A21FBD34D2006A5DA5 /* Extensiones.swift */; };
+		BD0392A71FBD36E7006A5DA5 /* InicioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0392A61FBD36E7006A5DA5 /* InicioController.swift */; };
+		BD0392A81FBD36E7006A5DA5 /* InicioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0392A61FBD36E7006A5DA5 /* InicioController.swift */; };
+		BD0392A91FBD36E7006A5DA5 /* InicioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0392A61FBD36E7006A5DA5 /* InicioController.swift */; };
+		BD0392AD1FBD508E006A5DA5 /* proximate.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = BD0392AC1FBD508D006A5DA5 /* proximate.sqlite */; };
+		BD0392AE1FBD508E006A5DA5 /* proximate.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = BD0392AC1FBD508D006A5DA5 /* proximate.sqlite */; };
+		BD0392AF1FBD508E006A5DA5 /* proximate.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = BD0392AC1FBD508D006A5DA5 /* proximate.sqlite */; };
+		BD0392B21FBD50F0006A5DA5 /* SQLSW4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0392B11FBD50F0006A5DA5 /* SQLSW4.swift */; };
+		BD0392B31FBD50F0006A5DA5 /* SQLSW4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0392B11FBD50F0006A5DA5 /* SQLSW4.swift */; };
+		BD0392B41FBD50F0006A5DA5 /* SQLSW4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0392B11FBD50F0006A5DA5 /* SQLSW4.swift */; };
+		BD0392B71FBD515D006A5DA5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0392B51FBD515D006A5DA5 /* libsqlite3.tbd */; };
+		BD0392B81FBD515D006A5DA5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0392B61FBD515D006A5DA5 /* libsqlite3.0.tbd */; };
+		E5DF0B16DA621573F3286D75 /* Pods_proximateiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DCF6127885A7FFFE41650F /* Pods_proximateiOS.framework */; };
+		FE009692C4ADCDBFB8B026A1 /* Pods_proximateiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00640D4A62A05D2189AABA74 /* Pods_proximateiOSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00640D4A62A05D2189AABA74 /* Pods_proximateiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_proximateiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9E06CF32B286F55F790262 /* Pods-proximateiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximateiOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-proximateiOSTests/Pods-proximateiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		35256E8CE1D11716AF6FEB79 /* Pods-proximateiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximateiOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-proximateiOSUITests/Pods-proximateiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		39CB9C41A26E5E0C8975BAB1 /* Pods_proximateiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_proximateiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E5A7118BE1C9C4EC709E85D /* Pods-proximateiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximateiOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-proximateiOSTests/Pods-proximateiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67DCF6127885A7FFFE41650F /* Pods_proximateiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_proximateiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA89E1E342F687CA97C1890 /* Pods-proximateiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximateiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-proximateiOS/Pods-proximateiOS.release.xcconfig"; sourceTree = "<group>"; };
+		9BA100D588EAFBC0036F93D2 /* Pods-proximateiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximateiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-proximateiOS/Pods-proximateiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B743F4964D460907C61B20C2 /* Pods-proximateiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximateiOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-proximateiOSUITests/Pods-proximateiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BD03926E1FBD3025006A5DA5 /* proximateiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proximateiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0392711FBD3025006A5DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD0392731FBD3025006A5DA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +75,13 @@
 		BD0392901FBD3026006A5DA5 /* proximateiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = proximateiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0392941FBD3027006A5DA5 /* proximateiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proximateiOSUITests.swift; sourceTree = "<group>"; };
 		BD0392961FBD3027006A5DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0392A21FBD34D2006A5DA5 /* Extensiones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensiones.swift; sourceTree = "<group>"; };
+		BD0392A61FBD36E7006A5DA5 /* InicioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioController.swift; sourceTree = "<group>"; };
+		BD0392AC1FBD508D006A5DA5 /* proximate.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = proximate.sqlite; sourceTree = "<group>"; };
+		BD0392B11FBD50F0006A5DA5 /* SQLSW4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLSW4.swift; sourceTree = "<group>"; };
+		BD0392B51FBD515D006A5DA5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BD0392B61FBD515D006A5DA5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		BD0392BA1FBD51D5006A5DA5 /* proximate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "proximate-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0392B71FBD515D006A5DA5 /* libsqlite3.tbd in Frameworks */,
+				BD0392B81FBD515D006A5DA5 /* libsqlite3.0.tbd in Frameworks */,
+				E5DF0B16DA621573F3286D75 /* Pods_proximateiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2170D4F156F4C03498A3A70F /* Pods_proximateiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +107,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE009692C4ADCDBFB8B026A1 /* Pods_proximateiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E420573B8C3266A51DB2E2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD0392B61FBD515D006A5DA5 /* libsqlite3.0.tbd */,
+				BD0392B51FBD515D006A5DA5 /* libsqlite3.tbd */,
+				67DCF6127885A7FFFE41650F /* Pods_proximateiOS.framework */,
+				39CB9C41A26E5E0C8975BAB1 /* Pods_proximateiOSTests.framework */,
+				00640D4A62A05D2189AABA74 /* Pods_proximateiOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BECCAECE3A9044EBF4EB300 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BA100D588EAFBC0036F93D2 /* Pods-proximateiOS.debug.xcconfig */,
+				9AA89E1E342F687CA97C1890 /* Pods-proximateiOS.release.xcconfig */,
+				3E5A7118BE1C9C4EC709E85D /* Pods-proximateiOSTests.debug.xcconfig */,
+				2E9E06CF32B286F55F790262 /* Pods-proximateiOSTests.release.xcconfig */,
+				35256E8CE1D11716AF6FEB79 /* Pods-proximateiOSUITests.debug.xcconfig */,
+				B743F4964D460907C61B20C2 /* Pods-proximateiOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BD0392651FBD3025006A5DA5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +146,8 @@
 				BD0392881FBD3026006A5DA5 /* proximateiOSTests */,
 				BD0392931FBD3026006A5DA5 /* proximateiOSUITests */,
 				BD03926F1FBD3025006A5DA5 /* Products */,
+				2BECCAECE3A9044EBF4EB300 /* Pods */,
+				0E420573B8C3266A51DB2E2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +164,12 @@
 		BD0392701FBD3025006A5DA5 /* proximateiOS */ = {
 			isa = PBXGroup;
 			children = (
+				BD0392B91FBD519C006A5DA5 /* ObjectC */,
+				BD0392B01FBD509E006A5DA5 /* MisLibrerias */,
+				BD0392AA1FBD5037006A5DA5 /* Resources */,
 				BD0392711FBD3025006A5DA5 /* AppDelegate.swift */,
 				BD0392731FBD3025006A5DA5 /* ViewController.swift */,
+				BD0392A61FBD36E7006A5DA5 /* InicioController.swift */,
 				BD0392751FBD3025006A5DA5 /* Main.storyboard */,
 				BD03927B1FBD3026006A5DA5 /* Assets.xcassets */,
 				BD03927D1FBD3026006A5DA5 /* LaunchScreen.storyboard */,
@@ -128,6 +197,39 @@
 			path = proximateiOSUITests;
 			sourceTree = "<group>";
 		};
+		BD0392AA1FBD5037006A5DA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD0392AB1FBD505E006A5DA5 /* BD */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BD0392AB1FBD505E006A5DA5 /* BD */ = {
+			isa = PBXGroup;
+			children = (
+				BD0392AC1FBD508D006A5DA5 /* proximate.sqlite */,
+			);
+			path = BD;
+			sourceTree = "<group>";
+		};
+		BD0392B01FBD509E006A5DA5 /* MisLibrerias */ = {
+			isa = PBXGroup;
+			children = (
+				BD0392A21FBD34D2006A5DA5 /* Extensiones.swift */,
+				BD0392B11FBD50F0006A5DA5 /* SQLSW4.swift */,
+			);
+			path = MisLibrerias;
+			sourceTree = "<group>";
+		};
+		BD0392B91FBD519C006A5DA5 /* ObjectC */ = {
+			isa = PBXGroup;
+			children = (
+				BD0392BA1FBD51D5006A5DA5 /* proximate-Bridging-Header.h */,
+			);
+			path = ObjectC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD0392991FBD3027006A5DA5 /* Build configuration list for PBXNativeTarget "proximateiOS" */;
 			buildPhases = (
+				450794B3441E510DE69FC424 /* [CP] Check Pods Manifest.lock */,
 				BD03926A1FBD3025006A5DA5 /* Sources */,
 				BD03926B1FBD3025006A5DA5 /* Frameworks */,
 				BD03926C1FBD3025006A5DA5 /* Resources */,
+				AFD73C65F771BBAA6A08F061 /* [CP] Embed Pods Frameworks */,
+				A6599BD3B25A5C05AD35FB00 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD03929C1FBD3027006A5DA5 /* Build configuration list for PBXNativeTarget "proximateiOSTests" */;
 			buildPhases = (
+				7E2D6804F8F225EB7048A5C3 /* [CP] Check Pods Manifest.lock */,
 				BD0392811FBD3026006A5DA5 /* Sources */,
 				BD0392821FBD3026006A5DA5 /* Frameworks */,
 				BD0392831FBD3026006A5DA5 /* Resources */,
+				4DAE4DEEF3E8CF3479BDB5AC /* [CP] Embed Pods Frameworks */,
+				58BC3A6E36E511B93BEADC0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD03929F1FBD3027006A5DA5 /* Build configuration list for PBXNativeTarget "proximateiOSUITests" */;
 			buildPhases = (
+				DE3CB1E698B9E4CCAB586B27 /* [CP] Check Pods Manifest.lock */,
 				BD03928C1FBD3026006A5DA5 /* Sources */,
 				BD03928D1FBD3026006A5DA5 /* Frameworks */,
 				BD03928E1FBD3026006A5DA5 /* Resources */,
+				A21540F96A81EB2116731534 /* [CP] Embed Pods Frameworks */,
+				68873C4A1E5C8640CECC6C9D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD03927F1FBD3026006A5DA5 /* LaunchScreen.storyboard in Resources */,
+				BD0392AD1FBD508E006A5DA5 /* proximate.sqlite in Resources */,
 				BD03927C1FBD3026006A5DA5 /* Assets.xcassets in Resources */,
 				BD0392771FBD3025006A5DA5 /* Main.storyboard in Resources */,
 			);
@@ -245,6 +357,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0392AE1FBD508E006A5DA5 /* proximate.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +365,167 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0392AF1FBD508E006A5DA5 /* proximate.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		450794B3441E510DE69FC424 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-proximateiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DAE4DEEF3E8CF3479BDB5AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-proximateiOSTests/Pods-proximateiOSTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-proximateiOSTests/Pods-proximateiOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58BC3A6E36E511B93BEADC0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-proximateiOSTests/Pods-proximateiOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68873C4A1E5C8640CECC6C9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-proximateiOSUITests/Pods-proximateiOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E2D6804F8F225EB7048A5C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-proximateiOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A21540F96A81EB2116731534 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-proximateiOSUITests/Pods-proximateiOSUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-proximateiOSUITests/Pods-proximateiOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6599BD3B25A5C05AD35FB00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-proximateiOS/Pods-proximateiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFD73C65F771BBAA6A08F061 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-proximateiOS/Pods-proximateiOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-proximateiOS/Pods-proximateiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE3CB1E698B9E4CCAB586B27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-proximateiOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD03926A1FBD3025006A5DA5 /* Sources */ = {
@@ -263,6 +533,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD0392741FBD3025006A5DA5 /* ViewController.swift in Sources */,
+				BD0392A71FBD36E7006A5DA5 /* InicioController.swift in Sources */,
+				BD0392A31FBD34D2006A5DA5 /* Extensiones.swift in Sources */,
+				BD0392B21FBD50F0006A5DA5 /* SQLSW4.swift in Sources */,
 				BD03927A1FBD3026006A5DA5 /* proximateiOS.xcdatamodeld in Sources */,
 				BD0392721FBD3025006A5DA5 /* AppDelegate.swift in Sources */,
 			);
@@ -272,7 +545,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0392A81FBD36E7006A5DA5 /* InicioController.swift in Sources */,
+				BD0392B31FBD50F0006A5DA5 /* SQLSW4.swift in Sources */,
 				BD03928A1FBD3026006A5DA5 /* proximateiOSTests.swift in Sources */,
+				BD0392A41FBD34D2006A5DA5 /* Extensiones.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +556,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0392A91FBD36E7006A5DA5 /* InicioController.swift in Sources */,
+				BD0392B41FBD50F0006A5DA5 /* SQLSW4.swift in Sources */,
 				BD0392951FBD3027006A5DA5 /* proximateiOSUITests.swift in Sources */,
+				BD0392A51FBD34D2006A5DA5 /* Extensiones.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,13 +707,16 @@
 		};
 		BD03929A1FBD3027006A5DA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA100D588EAFBC0036F93D2 /* Pods-proximateiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5BP8B75SA;
 				INFOPLIST_FILE = proximateiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.proximateapps.proximateiOS.proximateiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "proximateiOS/ObjectC/proximate-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -442,13 +724,16 @@
 		};
 		BD03929B1FBD3027006A5DA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA89E1E342F687CA97C1890 /* Pods-proximateiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5BP8B75SA;
 				INFOPLIST_FILE = proximateiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.proximateapps.proximateiOS.proximateiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "proximateiOS/ObjectC/proximate-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,6 +741,7 @@
 		};
 		BD03929D1FBD3027006A5DA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E5A7118BE1C9C4EC709E85D /* Pods-proximateiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +758,7 @@
 		};
 		BD03929E1FBD3027006A5DA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9E06CF32B286F55F790262 /* Pods-proximateiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +775,7 @@
 		};
 		BD0392A01FBD3027006A5DA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35256E8CE1D11716AF6FEB79 /* Pods-proximateiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +791,7 @@
 		};
 		BD0392A11FBD3027006A5DA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B743F4964D460907C61B20C2 /* Pods-proximateiOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
