@@ -531,6 +531,14 @@ class ViewController: UIViewController,UITextFieldDelegate,URLSessionDelegate,UR
                             
                             self.defaults.set(1, forKey: "sesion")
                             
+                            let subvistas = self.view.subviews
+                            
+                            for subvista in subvistas {
+                                
+                                subvista.removeFromSuperview()
+                                
+                            }
+                            
                             self.performSegue(withIdentifier: "logintoinicio", sender: self)
                             
                             
