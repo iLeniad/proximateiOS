@@ -516,7 +516,7 @@ class ViewController: UIViewController,UITextFieldDelegate,URLSessionDelegate,UR
                     
                     //print(resultadoSecciones)
                     
-                    if resultadoPerfil.0 {
+                    if resultadoPerfil.0 && resultadoSecciones.0 {
                        
                         let base = self.defaults.object(forKey: "base") as! String
                         
